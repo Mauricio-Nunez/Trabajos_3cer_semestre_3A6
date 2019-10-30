@@ -14,3 +14,7 @@ class Lista:
        # else:
         #    return False
 
+ def insertarPrimero(self,introducir_dato):
+        temporal = Nodo(introducir_dato)
+        temporal.siguiente = self.primero
+        self.primero = temporal
