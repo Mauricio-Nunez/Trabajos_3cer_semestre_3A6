@@ -18,3 +18,10 @@ class Lista:
         temporal = Nodo(introducir_dato)
         temporal.siguiente = self.primero
         self.primero = temporal
+
+    def listar(self):
+        print('*****lista de polinomios******')
+        temporal=self.primero
+        while temporal != None:
+            print(temporal.verNodo(),end=',')
+            temporal = temporal.siguiente
