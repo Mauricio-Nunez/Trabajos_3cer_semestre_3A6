@@ -3,5 +3,11 @@ class pila:#se crea una clase
         self.datos = []# en esta variable se agregarán los datos una vez hechas las operaciones
         self.top = -1#el dato no puede ser nagativo
         self.cantidad = cantidad##contidad de números que se pueden introducir
+        
+    
+    def adiciona_sacar(self,dato):#se crea el método para adiccionar y sacar de la lista que vamos a crear
+        if self.top < self.cantidad :# esta instrucción tiene como regla que si el tope es menor a la cantidad
+            self.top += 1 #se le podrá agregar elementos
+            self.datos.append(dato)  #despues adiciono
 
     
