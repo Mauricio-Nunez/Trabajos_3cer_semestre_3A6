@@ -18,3 +18,23 @@ def ConversorHex(n):           #crearemos otro método
     else:                   #si no se llamará recursivamente al método que creamos
         ConversorHex(int( n / 16 ))#el cual convertimos en entero para que no nos salgan puntos decimales y el número a introducir un número lo dividimos entre la base 16
         x =(int(n%16))      #creamos una variable la cual contendra el número de el método le sacaremos su residuo
+                if (x < 10):        #crearemos una condicional que mientras la variable x sea menor a 10
+            print(x)       #se imprimira x
+
+        if (x == 10):       #si no si la variable x es igual a 10
+            print("A")     #se cambiará por la letra A y ASI SERÁ CON EL RESTO HASTA LLEGAR A F el cual será 15
+
+        if (x == 11):
+            print("B")
+
+        if (x == 12):
+            print("C")
+
+        if (x == 13):
+            print("D")
+
+        if (x == 14):
+            print("E")
+
+        if (x == 15):
+            print ("F")
