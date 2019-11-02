@@ -19,9 +19,4 @@ class pila:#se crea una clase
             elif dato == 0:#si no se realizó la anterior operación
                 self.datos.clear() #si dato es cero se eliminará
 
-    
-print("_____________Hexadecimal_______________")  #se imprime para separar los resultados de los 2 Métodos
-ConversorHex(10)                                     #al método se le agregará un número al cual se le convertira a base hexadecimal
-print("_____________Octal_______________")
-Conversor_Octal = Conversor_Octal(20)             #al método se le agregará un número al cual se le convertira a base octal
-print(Conversor_Octal)
+
