@@ -38,3 +38,10 @@ def ConversorHex(n):           #crearemos otro método
 
         if (x == 15):
             print ("F")
+            
+     
+print("_____________Hexadecimal_______________")  #se imprime para separar los resultados de los 2 Métodos
+ConversorHex(10)                                     #al método se le agregará un número al cual se le convertira a base hexadecimal
+print("_____________Octal_______________")
+Conversor_Octal = Conversor_Octal(20)             #al método se le agregará un número al cual se le convertira a base octal
+print(Conversor_Octal)
