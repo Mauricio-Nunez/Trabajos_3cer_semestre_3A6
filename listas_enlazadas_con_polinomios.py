@@ -20,12 +20,20 @@ class Lista:#se creó otra clase para listar
 
  def insertarPrimero(self,introducir_dato): #se creó el método  para insertar el primer dato
         temporal = Nodo(introducir_dato) #se creó  una variable llamada temporal la cual la cual será igual a la clase nodo y introducir datos
-        temporal.siguiente = self.primero
-        self.primero = temporal
+        temporal.siguiente = self.primero #temporal se adjuntará con siguiente(none) este sera el primero(variable) 
+        self.primero = temporal#una vez realizada la instrucción, primero será temporal
 
-  def listar(self):
+  def listar(self):#se creo mun método para listar
      print('*****lista de polinomios******')
-       temporal=self.primero
-       while temporal != None:
-           print(temporal.verNodo(),end=',')
+       temporal=self.primero#temporal sera equivalente a primero 
+       while temporal != None:#re lealizará una intrucción la cual consiste en lo siguiente:
+           print(temporal.verNodo(),end=',')#mientras while sea diferente a vacio  se imprimira ver nodo en fila
            temporal = temporal.siguiente
+
+  
+listas=Lista()
+listas.insertarPrimero(1.5)
+listas.insertarPrimero(1.0)
+listas.insertarPrimero(0.5)
+listas.insertarPrimero(0.0)
+listas.listar()
