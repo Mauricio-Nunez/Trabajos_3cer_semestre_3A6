@@ -33,14 +33,7 @@ pilas = pila()#se crea una variable y manda a llamar la clase
 pilas.adiciona_sacar(int(input('introduce dato 1__')))# esta intrucción manda a llamar el método en el que se realizaron las operaciones
 pilas.adiciona_sacar(int(input('introduce dato 2__')))
 pilas.adiciona_sacar(int(input('introduce dato 3__')))
-#pilas.adiciona(int(input('introduce dato 1')))
-#pilas.adiciona(int(input('introduce dato 1')))
-#pilas.adiciona(int(input('introduce dato 1')))
-#pilas.adiciona(int(input('introduce dato 1')))
-#pilas.adiciona(int(input('introduce dato 1')))
-#pilas.adiciona(int(input('introduce dato 1')))
-#pilas.adiciona(int(input('introduce dato 1')))
-#pilas.adiciona(int(input('introduce dato 1')))
+
 
 print(pilas.visualizar())
 
